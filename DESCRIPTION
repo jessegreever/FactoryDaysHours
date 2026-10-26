@@ -1,0 +1,20 @@
+Package: FactoryDaysHours
+Type: Package
+Title: Fast Business Hours and Business Days Between Timestamps
+Version: 0.1.0
+Authors@R: person("Jesse", "Greever", email = "dr.greever@gmail.com", role = c("aut", "cre"))
+Description: Vectorised, closed-form calculation of elapsed working time
+    (business hours and business days) between two timestamps, respecting a
+    daily working window, weekends and a list of company holidays. Also adds
+    working hours to a timestamp. No day-by-day iteration is performed, so
+    millions of date pairs are handled in well under a second.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.0.0)
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+URL: https://github.com/jessegreever/FactoryDaysHours
+BugReports: https://github.com/jessegreever/FactoryDaysHours/issues
